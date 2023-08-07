@@ -1,14 +1,14 @@
 server:
 #  ip: localhost
-  ip: www.njmmxx.com # 服务器地址
+  ip: xxx.com # 服务器地址
   port: 8800
   servlet:
     context-path: /
   ssl:
     enabled: true
     # 保存SSL证书的秘钥库的路径
-    key-store: classpath:ssls/njmmxx.com.jks
-    key-store-password: g8nqzhb9
+    key-store: classpath:ssls/xxx.com.jks
+    key-store-password: xxx
     # 证书类型
     key-store-type: JKS
 #    key-store-protocol: JKS
@@ -43,13 +43,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource # 数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver # mysql驱动包
-    #        url: jdbc:mysql://43.142.255.148:3306/auth-system?serverTimezone=Asia/Shanghai
-#    url: jdbc:mysql://127.0.0.1:3306/pan-auth?serverTimezone=Asia/Shanghai
-    url: jdbc:mysql://43.142.255.148:3306/mm?serverTimezone=Asia/Shanghai
-    username: mm
-    password: njmmxx..
-#    username: root
-#    password: 123123123
+    url: jdbc:mysql://127.0.0.1:3306/pan-auth?serverTimezone=Asia/Shanghai
+    username: root
+    password: xx..
   jackson: # 时间格式化
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
@@ -58,7 +54,6 @@ spring:
     port: 6379
     database: 0
     timeout: 1800000
-    #        password: niit1918..
     password:
     jedis:
       pool:
@@ -102,6 +97,6 @@ files:
 
 weixin:
   jscode2sessionUrl: https://api.weixin.qq.com/sns/jscode2session
-  appid: wx05c7e301694df90f
-  secret: 01f56fa78ba1b7ed0a87bb2142d34914
+  appid: xx
+  secret: xx
 
