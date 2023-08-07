@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ee-apps/ee-auth/ee-auth-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-apps/ee-auth/ee-auth-entity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-apps/ee-auth/ee-auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-apps/ee-auth/ee-auth-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-apps/ee-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-apps/ee-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-apps/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-apps/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-parent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-tools/ee-tools-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-tools/ee-tools-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-tools/ee-tools-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-tools/ee-tools-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-tools/ee-tools-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-tools/ee-tools-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-tools/ee-tools-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-tools/ee-tools-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-tools/ee-tools-swagger2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-tools/ee-tools-swagger2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-tools/ee-tools-validator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-tools/ee-tools-validator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-tools/ee-tools-xss/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-tools/ee-tools-xss/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-tools/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ee-tools/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.ee</groupId>
+        <artifactId>ee-auth</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>org.ee.authority</groupId>
+    <artifactId>ee-auth-entity</artifactId>
+    <name>${project.artifactId}</name>
+    <description>权限服务实体模块</description>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.ee</groupId>
+            <artifactId>ee-tools-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus</artifactId>
+        </dependency>
+        <!--        log-->
+        <dependency>
+            <groupId>org.ee.log</groupId>
+            <artifactId>ee-tools-log</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+<!--        jwt-->
+<!--        database-->
+    </dependencies>
+
+</project>

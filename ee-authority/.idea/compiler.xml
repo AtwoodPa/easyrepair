@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ee-auth-server" />
+        <module name="ee-tools-xss" />
+        <module name="ee-tools-security" />
+        <module name="ee-tools-core" />
+        <module name="ee-auth-entity" />
+        <module name="ee-tools-common" />
+        <module name="ee-tools-validator" />
+        <module name="ee-tools-log" />
+        <module name="ee-tools-swagger2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ee-tools-security" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ee-apps" options="" />
+      <module name="ee-auth" options="" />
+      <module name="ee-auth-entity" options="-parameters" />
+      <module name="ee-auth-server" options="-parameters" />
+      <module name="ee-parent" options="" />
+      <module name="ee-tools" options="" />
+      <module name="ee-tools-common" options="-parameters" />
+      <module name="ee-tools-core" options="-parameters" />
+      <module name="ee-tools-log" options="-parameters" />
+      <module name="ee-tools-security" options="-parameters" />
+      <module name="ee-tools-swagger2" options="-parameters" />
+      <module name="ee-tools-validator" options="-parameters" />
+      <module name="ee-tools-xss" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.ee</groupId>
+    <artifactId>ee-authority</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>${project.artifactId}</name>
+
+    <modules>
+        <!-- 指定系统依赖的版本号 -->
+        <module>ee-parent</module>
+        <!--    开发业务    -->
+        <module>ee-apps</module>
+        <!-- 自定义starter工具 -->
+        <module>ee-tools</module>
+
+    </modules>
+
+    <packaging>pom</packaging>
+</project>

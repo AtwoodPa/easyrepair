@@ -1,0 +1,107 @@
+server:
+#  ip: localhost
+  ip: www.njmmxx.com # 服务器地址
+  port: 8800
+  servlet:
+    context-path: /
+  ssl:
+    enabled: true
+    # 保存SSL证书的秘钥库的路径
+    key-store: classpath:ssls/njmmxx.com.jks
+    key-store-password: g8nqzhb9
+    # 证书类型
+    key-store-type: JKS
+#    key-store-protocol: JKS
+
+custom:  # 自定义http启动端口
+  http-port: 8888
+
+ee:
+  log:
+    enabled: true
+  swagger:
+    enabled: true
+    title: 在线接口文档
+    base-package: org.ee.authority.controller
+#    docket: # 分组配置
+#      user:
+#        title: 用户模块
+#        base-package: cn.itcast.controller.user
+#      menu:
+#        title: 菜单模块
+#        base-package: cn.itcast.controller.menu
+
+
+
+spring:
+  author: panpan
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 100MB # 文件上传最大文件大小
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource # 数据源操作类型
+    driver-class-name: com.mysql.cj.jdbc.Driver # mysql驱动包
+    #        url: jdbc:mysql://43.142.255.148:3306/auth-system?serverTimezone=Asia/Shanghai
+#    url: jdbc:mysql://127.0.0.1:3306/pan-auth?serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://43.142.255.148:3306/mm?serverTimezone=Asia/Shanghai
+    username: mm
+    password: njmmxx..
+#    username: root
+#    password: 123123123
+  jackson: # 时间格式化
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+    timeout: 1800000
+    #        password: niit1918..
+    password:
+    jedis:
+      pool:
+        max-active: 20 #最大连接数
+        max-wait: -1    #最大阻塞等待时间(负数表示没限制)
+        max-idle: 5    #最大空闲
+        min-idle: 0     #最小空闲
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: @project.artifactId@
+  aop:
+    proxy-target-class: true
+    auto: true
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto #id生成规则：数据库id自增
+  configuration:
+    map-underscore-to-camel-case: true  # 开启驼峰功能
+    auto-mapping-behavior: full # 自动映射任何复杂的结果
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 查看日志
+  mapper-locations: classpath:mybatis/mapper/*.xml # 包扫描目录
+
+
+# 只能配置在bootstrap.yml ，否则会生成 log.path_IS_UNDEFINED 文件夹
+# window会自动在 代码所在盘 根目录下自动创建文件夹，  如： D:/data/projects/logs
+logging:
+  file:
+#    path: /Library/Soft/data/projects/logs
+    path: /data/report/logs
+    name: ${logging.file.path}/${spring.application.name}/root.log
+
+# 文件上传路径
+files:
+  uploads:
+#    path: /Library/Soft/data/projects/images/
+    path: /data/report/images/
+#        path: /data/report/image # 服务器存放图片地址
+
+weixin:
+  jscode2sessionUrl: https://api.weixin.qq.com/sns/jscode2session
+  appid: wx05c7e301694df90f
+  secret: 01f56fa78ba1b7ed0a87bb2142d34914
+

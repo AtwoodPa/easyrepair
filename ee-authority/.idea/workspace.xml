@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8dbfd5c-dedc-41a5-b2c7-490df9d41b69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../JksSSLDemo/src/main/java/org/pp/ssl/config/HttpsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JksSSLDemo/src/main/java/org/pp/ssl/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JksSSLDemo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JksSSLDemo/src/main/resources/ssl/njmmxx.com.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot/boot-easypoi/src/main/java/org/pp/poi/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot/boot-easypoi/src/main/java/org/pp/poi/entity/CourseExportVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot/boot-easypoi/src/main/java/org/pp/poi/entity/StudentExportVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot/boot-easypoi/src/main/java/org/pp/poi/entity/TeacherExportVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot/boot-easypoi/src/main/java/org/pp/poi/entity/UserExportVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot/boot-easypoi/src/main/java/org/pp/poi/utils/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WB-JavaBasic/Java-Web/Spring-Study/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WB-JavaBasic/Java-Web/SpringBoot-Study/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WB-JavaBasic/Java-Web/Web-Study/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WB-JavaBasic/Java-Web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exceptionHandler-demo/src/main/java/org/example/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exceptionHandler-demo/src/main/java/org/example/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exceptionHandler-demo/src/main/java/org/example/exception/MyExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exceptionHandler-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../j2cache-demo/src/main/java/org/pp/J2CacheApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../j2cache-demo/src/main/java/org/pp/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../j2cache-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../j2cache-demo/src/main/resources/caffeine.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb_BookManagerSystem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudAlibabaStudy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/book-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/book-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/book-service/src/main/java/org/pp/BookApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/book-service/src/main/java/org/pp/controller/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/book-service/src/main/java/org/pp/mapper/BookMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/book-service/src/main/java/org/pp/service/BookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/book-service/src/main/java/org/pp/service/impl/BookServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/book-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/borrow-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/borrow-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/borrow-service/src/main/java/org/pp/BorrowApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/borrow-service/src/main/java/org/pp/config/BeanConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/borrow-service/src/main/java/org/pp/controller/BorrowController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/borrow-service/src/main/java/org/pp/entity/UserBorrowDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/borrow-service/src/main/java/org/pp/mapper/BorrowMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/borrow-service/src/main/java/org/pp/service/BorrowService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/borrow-service/src/main/java/org/pp/service/client/BookClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/borrow-service/src/main/java/org/pp/service/client/UserClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/borrow-service/src/main/java/org/pp/service/impl/BorrowServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/borrow-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/commons/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/commons/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/commons/src/main/java/org/pp/entity/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/commons/src/main/java/org/pp/entity/Borrow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/commons/src/main/java/org/pp/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/euraka-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/euraka-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/euraka-service/src/main/java/org/pp/EurakaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/euraka-service/src/main/resources/application-01.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/euraka-service/src/main/resources/application-02.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/gateway-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/gateway-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/gateway-service/src/main/java/org/pp/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/gateway-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/user-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/user-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/user-service/src/main/java/org/pp/UserApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/user-service/src/main/java/org/pp/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/user-service/src/main/java/org/pp/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/user-service/src/main/java/org/pp/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/user-service/src/main/java/org/pp/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloud/SpringCloudStudy/user-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringCloudStudy.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-vue-ccimgcloud" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../../../tools/maven_jar" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../tools/apache-maven-3.9.0/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ShHRBu5QmNJt1O16nN5PE7hPgO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Library/Soft/Backend/Java/auth-system-demo/ee-authority/ee-apps/ee-auth/ee-auth-entity/src/main/java/org/ee/authority&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;fc3ad2b7511364bc8dc5adf600bacf05&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;MySQL&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ee-apps/ee-auth/ee-auth-entity/src/main/java/org/ee/authority" />
+      <recent name="$PROJECT_DIR$/ee-apps/ee-auth/ee-auth-server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ee-apps/ee-auth/ee-auth-server/src/main/resources/mybatis/mapper" />
+      <recent name="$PROJECT_DIR$/sql" />
+      <recent name="$PROJECT_DIR$/ee-apps/ee-auth/ee-auth-server/src/main/java/org/ee/authority/controller/system" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.ee.authority.utils.wxjwt" />
+      <recent name="org.ee.authority.utils" />
+      <recent name="org.ee.authority.config" />
+      <recent name="org.ee.authority.entity.bussiness" />
+      <recent name="org.ee.authority.service.bussiness.impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AuthorityApplication">
+    <configuration name="CodeGenerate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ee.base.id.CodeGenerate" />
+      <module name="ee-tools-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ee.base.id.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomMd5PasswordEncoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ee.authority.service.custom.CustomMd5PasswordEncoder" />
+      <module name="ee-auth-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ee.authority.service.custom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ee.authority.utils.JwtHelper" />
+      <module name="ee-auth-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ee.authority.utils.wxjwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthorityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ee-auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ee.authority.AuthorityApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ee.authority.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CustomMd5PasswordEncoder" />
+        <item itemvalue="Spring Boot.AuthorityApplication" />
+        <item itemvalue="Application.JwtHelper" />
+        <item itemvalue="Application.CodeGenerate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8dbfd5c-dedc-41a5-b2c7-490df9d41b69" name="Changes" comment="" />
+      <created>1689591882163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689591882163</updated>
+      <workItem from="1689591883485" duration="7280000" />
+      <workItem from="1689600172492" duration="21399000" />
+      <workItem from="1690511728275" duration="1376000" />
+      <workItem from="1690937926483" duration="63795000" />
+      <workItem from="1691128889887" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ee-apps/ee-auth/ee-auth-server/src/main/java/org/ee/authority/utils/MenuHelper.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

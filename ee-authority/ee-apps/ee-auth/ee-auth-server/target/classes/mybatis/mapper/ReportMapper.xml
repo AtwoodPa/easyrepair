@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.ee.authority.mapper.bussiness.ReportMapper">
+    <resultMap id="ReportMap" type="org.ee.authority.entity.bussiness.Report">
+        <id property="id" column="id"></id>
+        <result property="username" column="username"></result>
+        <result property="nickName" column="nick_name"></result>
+        <result property="phone" column="phone"></result>
+        <result property="address" column="address"></result>
+        <result property="equname" column="equName"></result>
+        <result property="equtype" column="equType"></result>
+        <result property="description" column="description"></result>
+        <result property="image" column="image"></result>
+        <result property="status" column="status"></result>
+        <result property="createTime" column="create_time"></result>
+        <result property="updateTime" column="update_time"></result>
+        <result property="isDeleted" column="is_deleted"></result>
+    </resultMap>
+
+    <!-- 用于select查询公用抽取的列 -->
+    <sql id="columns">
+        id,username,nick_name,phone,address,equName,equType,description,image,status,create_time,update_time,is_deleted
+    </sql>
+
+    <select id="selectPage" resultMap="ReportMap">
+        select
+        <include refid="columns"/>
+        from t_report
+        <where>
+            <if test="vo.keyword != null and vo.keyword != ''">
+                and (username like CONCAT('%',#{vo.keyword},'%') )
+            </if>
+            <if test="vo.status != null and vo.status != ''">
+                and status == #{vo.status}
+            </if>
+            <if test="vo.createTimeBegin != null and vo.createTimeBegin != ''">
+                and create_time >= #{vo.createTimeBegin}
+            </if>
+            <if test="vo.createTimeEnd != null and vo.createTimeEnd != ''">
+                and create_time &lt;= #{vo.createTimeEnd}
+            </if>
+            and is_deleted = 0
+        </where>
+        order by id desc
+    </select>
+    <select id="selectPage2" resultMap="ReportMap">
+        select
+        <include refid="columns"/>
+        from t_report
+        <where>
+
+            <if test="types != null and types != ''">
+                and status <![CDATA[=]]> #{types}
+            </if>
+            and nick_name like CONCAT('%',#{nickName},'%')
+            and is_deleted = 0
+        </where>
+        order by id desc
+
+    </select>
+</mapper>

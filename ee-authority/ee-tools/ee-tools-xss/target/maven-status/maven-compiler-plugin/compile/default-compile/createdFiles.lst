@@ -1,0 +1,5 @@
+org/ee/xss/filter/XSSFilter.class
+org/ee/xss/wrapper/XssRequestWrapper.class
+org/ee/xss/converter/XssStringJsonDeserializer.class
+org/ee/xss/XssAuthConfiguration.class
+org/ee/xss/utils/XssUtils.class
